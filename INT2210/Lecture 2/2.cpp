@@ -2,16 +2,14 @@
 using namespace std;
 
 class Node {
-    private:
+    public:
     int data;
     Node* next;
-
-    public:
 
     int size = 0;
     Node* head = NULL;
 
-    bool Insert(Node* head, int x, int p) {
+    bool Insert(int x, int p) {
         if (p <= 0 || p > size + 1) return false;
 
         Node* temp = new Node();
@@ -24,7 +22,7 @@ class Node {
 
         else {
             Node* temp2 = head;
-            for (int i = 0; i < temp - 2; i++) {
+            for (int i = 0; i < p - 2; i++) {
                 temp2 = temp2->next;
             }
 
@@ -58,9 +56,29 @@ class Node {
 
         return true;
     }
+
+    //Alternative: print the linked list
+    void print() {
+        Node* temp = head;
+        while (temp != NULL) {
+            cout << temp->data << " ";
+            temp = temp->next;
+        }
+    }
 };
 
 int main()
 {
-    
+    //Testing
+   Node LinkedList;
+
+   LinkedList.Insert(1,1);
+   LinkedList.Insert(3,2);
+   LinkedList.Insert(4,2);
+   LinkedList.Insert(2,3);
+   LinkedList.Delete(2);
+
+   LinkedList.print();
+   
+   return 0;
 }

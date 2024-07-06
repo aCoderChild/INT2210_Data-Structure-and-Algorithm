@@ -21,6 +21,7 @@ int main()
 }
 */
 
+//using Map - count the pairs
 int count (int a[], int n) {
     map<int, int> cnt;
     int res = 0;
