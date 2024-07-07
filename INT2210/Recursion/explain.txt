@@ -1,0 +1,10 @@
+Recursion: the process in which a function CALL ITSELF directly or indirectly
+=> corresponding function is called a RECUSRIVE function
+=> solving smaller subproblems of the original problem
+
+Properties:
+	- performing the SAME operations multiple times with DIFFERENT inputs
+	- in every step, we try smaller inputs to make the problem SMALLER
+	- BASE CONDITION is needed to STOP the recursion
+
+IT MUST HAVE BASE CASE AND INDUCTION
