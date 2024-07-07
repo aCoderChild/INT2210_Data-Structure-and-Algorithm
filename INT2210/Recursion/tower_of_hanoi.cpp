@@ -17,3 +17,5 @@ int main()
 
 	tower_of_hanoi(n);
 }
+
+//algorithm: what is called first solved first
