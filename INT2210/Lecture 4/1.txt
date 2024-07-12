@@ -1,0 +1,4 @@
+two desirable properties of a hash function:
+	1. it should be very fase to compute
+	2. should MINIMISE duplication of output values (collisions)
+
