@@ -1,0 +1,13 @@
+Dynamic Programming:
+- like divide and conquer method: solve problems bu combining the solutions to SUBPROBLEMS
+Programming in this context refers to a tabular method
+- apply when subproblems Overlap - subproblems share subsubProblems
+- by having an array to STORE the answer of the Subproblems
+- typically apply to OPTIMIZATION PROBLEMS
+
+How to develop a dynamic programming algorithm:
+1. Characterise the structure of an optimal solution
+2. Recursively define the value of an optimal solution
+3. Compute the value of an optimal solution, typically in a BOTTON-UP fashion
+4. COnstruct an Optimal solution from computed information
+
