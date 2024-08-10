@@ -8,7 +8,7 @@ void DFS(int curr, vector<bool>& visited) {
 	visited[curr] = true;
 	for (auto i : adj[curr]) {
 		if (visited[i] == false) { //just to check if i is visited or not
-			visited[i] = true;
+			visited[i] = true;// not necessary
 			DFS(i, visited);
 		}
 	}
