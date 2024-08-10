@@ -129,3 +129,18 @@ int main() {
     return 0;
 }
 */
+
+//-------------------------------------------------------------------------
+
+/* 
+I. Euclidean graph: In graph theory, Euclidean graph is a type of graph 
+where the vertices are Points in the Euclidean space (ex: 2D or 3D space)
+and the edges are straight lines or curves that connect these points.
+The edges are typically weighted by their Euclidean distace, which is the 
+line distance between two endpoints of the edge
+
+Euclidean graph is a graph G = (V, E) where:
+	1. V: set of vertices, each represented by a point in the Euclidean space
+	2. E: set of edgesm each represented by a straight line or curve
+	3. Each edge e has a weight w(e)
+*/
